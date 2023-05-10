@@ -1,0 +1,34 @@
+:root {
+    --border-color: #291D4D;
+    --dialog-background: #FFF3B4;
+    --menu-background: #FFE8D2;
+    --menu-border-color: #A48465;
+    --menu-font-color: #3A160D;
+    --menu-selected-background: #7fc2ff;
+    overflow: hidden;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background: azure;
+    width: 100vw;
+    height: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.game-container{
+    width: 1284px;
+    height: 772px;
+    border: 2px solid black;
+    background: gray;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.game-container canvas{
+    image-rendering: pixelated;
+}

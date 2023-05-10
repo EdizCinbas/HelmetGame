@@ -1,0 +1,26 @@
+.Hud{
+    position: absolute;
+    right: 44px;
+    top: 50px;
+    image-rendering: pixelated;
+    width:300px;
+    height: 80px;
+    background-color:orange;
+    opacity: 0.5;
+}
+
+.Hud_p{
+    position: relative;
+    left: 50px;
+    top: 5px;
+    font-size: 30px;
+}
+
+.Hud span{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    opacity: 1;
+    font-size: large;
+}
+

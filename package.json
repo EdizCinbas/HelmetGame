@@ -1,0 +1,11 @@
+{
+  "name": "helmetgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "init.js",
+  "scripts": {
+    "test": "runTest"
+  },
+  "author": "EdyS",
+  "license": "ISC"
+}
